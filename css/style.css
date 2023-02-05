@@ -1,0 +1,586 @@
+body {
+    font-family: "Poppins", Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.5;
+    min-width: 320px;
+}
+
+.nav {
+    background-color: #FFFFFF;
+    border-bottom: #683F23 solid 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 29px;
+
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 23px 0 26px 0;
+}
+
+.nav-list li a {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #40645C;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.nav-list li a:active {
+    text-decoration: underline;
+}
+
+.nav-adress {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-adress_info {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Header styling */
+
+.header {
+    background-image: url(../image/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 302px;
+}
+
+.figure {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.figure-img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 31px;
+    width: 152px;
+}
+
+.figure-title {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    margin-top: 1em;
+    padding-bottom: 47px;
+}
+
+/* End of header styling */
+
+/* Styling meet our chefs section */
+.chef {
+    background-color: #F0ECE9;
+    padding-bottom: 94px;
+}
+
+.chef-title {
+    font-family: "Cormorant Garamond", Georgia, Times, 'Times new roman', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #4E2E18;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.chef-img {
+    width: 207px;
+    height: auto;
+    margin-left: 29px;
+}
+
+.chef-name {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 39px 0 14px 29px;
+    color: #40645C;
+}
+
+.chef-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 50px 76px 29px;
+    color: #484848;
+}
+
+/*End styleng chef*/
+
+/*Product*/
+.product {
+    background: #DEDEDB;
+    padding-bottom: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.product-title__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #484848;
+    margin-bottom: 67px;
+
+}
+
+.product-name {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #40645C;
+    margin: 22px 0 7px 0;
+}
+
+.product-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #484848;
+    margin-bottom: 65px;
+}
+
+/*End style product*/
+
+/*Map*/
+.contact {
+    background-color: #F0ECE9;
+    padding-bottom: 40px;
+}
+
+.contact-map {
+    margin-bottom: 65px;
+    width: 100%;
+    min-height: 200px;
+}
+
+.contact-opening {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #40645C;
+    margin-bottom: 12px;
+}
+
+.opening {
+    margin-bottom: 20px;
+}
+
+.contact-time {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #484848;
+}
+
+.contact-time span {
+    font-weight: 700;
+}
+
+/*Map end*/
+/*Footer*/
+.footer {
+    background: #4E2E18;
+    min-height: 44px;
+}
+
+.footer p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 15px;
+
+}
+
+/*History*/
+.container-history {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.history {
+    background-color: #F0ECE9;
+}
+
+.history-info {
+
+}
+
+.history-img {
+    width: 100%;
+
+}
+
+.history-title {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #4E2E18;
+    margin: 58px 0 16px 34px;
+
+}
+
+.history-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #484848;
+    margin: 0 34px;
+}
+
+@media (min-width: 481px) {
+    .nav-list {
+        justify-content: flex-start;
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+
+    .nav-list li a {
+        margin-right: 20px;
+    }
+
+    .nav-adress {
+        justify-content: flex-start;
+        padding-left: 50px;
+    }
+
+    /*Header*/
+    .header {
+        max-height: 297px;
+
+    }
+
+    .figure-img {
+        padding-top: 55px;
+        width: 152px;
+    }
+
+    .figure-title {
+        padding-bottom: 54px;
+    }
+
+    /*Chef*/
+    .chef-title {
+        padding-top: 2em;
+        padding-bottom: 98px;
+    }
+
+    .chef-img {
+        margin-left: 68px;
+    }
+
+    .chef-name {
+        margin: 24px 0 14px 69px;
+    }
+
+    .chef-text {
+        margin: 0 50px 100px 69px;
+        padding-right: 220px;
+        color: #484848;
+    }
+
+    /*Product*/
+    .product-title__text {
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+
+    /*Map*/
+    .contact-map {
+        margin-bottom: 50px;
+        min-height: 308px;
+    }
+
+    /*History*/
+    .container-history {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .history {
+        background-color: #F0ECE9;
+    }
+
+    .history-title {
+        margin: 59px 0 16px 0;
+    }
+
+    .history-text {
+        margin: 0;
+    }
+}
+
+@media (min-width: 993px) {
+    .nav {
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .nav-list {
+        padding-left: 7em;
+        margin: 19px 0;
+    }
+
+    .nav-list li a {
+        font-size: 25px;
+    }
+
+    .nav-adress {
+        justify-content: flex-end;
+        margin-right: 7em;
+    }
+
+    .nav-adress_info {
+        font-size: 20px;
+    }
+
+    /*Header*/
+    .header {
+        min-height: 544px;
+    }
+
+    .figure {
+        width: 70%;
+    }
+
+    .figure-img {
+        padding-top: 127px;
+        width: 252px;
+    }
+
+    .figure-title {
+        font-size: 50px;
+        line-height: 51px;
+        padding-bottom: 114px;
+    }
+
+    /*Chef*/
+    .chef {
+        background-color: #F0ECE9;
+        padding-bottom: 80px;
+
+    }
+
+    .chef-title {
+        padding-top: 129px;
+    }
+
+    .chef-container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .chef-figure {
+        padding-bottom: 179px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .chef-img {
+        width: 220px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .chef-name {
+        margin: 0 0 50px 25px;
+    }
+
+    .chef-text {
+        font-size: 18px;
+        margin: 0 0 0 25px;
+        padding-right: 0;
+        width: 80%;
+    }
+
+    .chef-figure2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .chef-name2 {
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #40645C;
+        float: right;
+        margin: 0 25px 70px 0;
+
+    }
+
+    .chef-text2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: right;
+        color: #484848;
+        margin-right: 25px;
+        float: right;
+        font-size: 18px;
+    }
+
+    .fig {
+        width: 60%;
+    }
+
+    /*Product*/
+    .product {
+        padding-bottom: 100px;
+    }
+
+    .container {
+        max-width: 60%;
+    }
+
+    .product-title__text {
+        font-size: 20px;
+        margin-bottom: 98px;
+    }
+
+    .product-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .product-img {
+        width: 240px;
+    }
+
+    .product-text {
+        display: block;
+        width: 400px;
+    }
+
+    /*Map*/
+    .contact-map {
+        margin: 0;
+        width: 478px;
+        height: 308px;
+    }
+
+    .contact-grid {
+        display: grid;
+        justify-items: center;
+        grid-template-rows:50% 50%;
+        grid-auto-columns: 50% 50%;
+        height: 100%;
+        gap: 10px;
+        grid-template-areas:
+    "item2 item1"
+    "item3 1tem1"
+    }
+
+    .item1 {
+        grid-area: item1;
+
+    }
+
+    .item2 {
+        grid-area: item2;
+
+    }
+
+    .item3 {
+        grid-area: item3;
+    }
+
+    .footer p {
+        font-size: 17px;
+    }
+
+    /*History*/
+    .container-history {
+        width: 80%;
+    }
+
+
+    .history-info {
+        padding-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .history-img {
+        width: 383px;
+    }
+
+    .history-title {
+        margin: 0;
+    }
+
+    .history-text {
+        margin: 0;
+    }
+
+    .about {
+        width: 545px;
+    }
+
+    .container-history {
+        width: 60%;
+    }
+}
